@@ -25,6 +25,7 @@
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 #score {
   font-size: 40px;
   margin-left: 180px;
@@ -32,5 +33,9 @@
 
 #scoreBoard {
   font-size: 40px;
-  margin-top: -47px;
+=======
+.super-food {
+  background-color: green;
+  border-radius: 50%;
+>>>>>>> 5892d36290b650b29f3df06ba50de231d0052a97
 }
