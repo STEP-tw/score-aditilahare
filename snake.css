@@ -24,3 +24,13 @@
   background-color: blue;
   border-radius: 50%;
 }
+
+#score {
+  font-size: 40px;
+  margin-left: 180px;
+}
+
+#scoreBoard {
+  font-size: 40px;
+  margin-top: -47px;
+}

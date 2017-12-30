@@ -2,6 +2,7 @@ let snake=undefined;
 let food=undefined;
 let numberOfRows=60;
 let numberOfCols=120;
+let score = 0;
 
 let animator=undefined;
 
@@ -52,6 +53,8 @@ const createSnake=function() {
 
 const createFood=function(numberOfRows,numberOfCols) {
   food=generateRandomPosition(numberOfCols,numberOfRows);
+  document.getElementById("score").innerText = `${score}`;
+  score += 10;
 }
 
 const startGame=function() {

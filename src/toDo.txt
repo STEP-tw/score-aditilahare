@@ -1,0 +1,4 @@
+* - Add score feature into game.
+* - Concerned about updating the score.
+* - After game over it will show the final points of user.
+------------------------------------------------------------
